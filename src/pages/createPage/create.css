@@ -1,0 +1,58 @@
+.create {
+  margin: 0 80px;
+}
+
+.createImg {
+  margin-bottom: 20px;
+  width: 50%;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.createImgDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.add-title {
+  display: flex;
+  align-items: center;
+}
+
+.add-title > input {
+  margin-left: 10px;
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+  font-size: 23px;
+}
+
+.publishBtn {
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: turquoise;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.add-title > input:focus {
+  outline: none;
+}
+
+.createDesc > textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px 10px;
+  border: none;
+  font-size: 18px;
+}
+
+.createDesc > textarea:focus {
+  outline: none;
+}
+
+.writeIcon {
+  cursor: pointer;
+}

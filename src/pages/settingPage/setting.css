@@ -1,0 +1,97 @@
+.setting {
+  display: flex;
+  margin-left: 10px;
+}
+
+.settingSec {
+  flex: 9.5;
+}
+
+.settingTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.settingUpdate {
+  font-size: 22px;
+  color: rgb(253, 130, 108);
+}
+
+.settingDelete {
+  font-size: 12px;
+  cursor: pointer;
+  color: rgb(240, 67, 37);
+}
+
+.settingSidebar {
+  flex: 2.5;
+}
+
+.profilePicSec {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.settingImg {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.IconDot {
+  background-color: rgb(240, 67, 37);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.fa-user {
+  color: white;
+  cursor: pointer;
+}
+
+.settingForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingForm > input {
+  border: none;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  font-size: 15px;
+  padding: 8px 10px;
+}
+
+.settingForm > input:focus {
+  outline: none;
+}
+
+.settingBtn {
+  background-color: teal;
+  color: white;
+  padding: 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}

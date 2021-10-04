@@ -1,0 +1,7 @@
+.home {
+  display: flex;
+}
+
+.homeSidebar {
+  flex: 2;
+}

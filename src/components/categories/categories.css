@@ -1,0 +1,25 @@
+.categories {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categories-title {
+  font-size: 20px;
+  border-top: solid 1px #a7a4a4;
+  border-bottom: solid 1px #a7a4a4;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+
+.categories-list {
+  list-style: none;
+  text-align: center;
+}
+
+.categories-item {
+  display: inline-block;
+  width: 50%;
+  cursor: pointer;
+}

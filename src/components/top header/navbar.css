@@ -1,0 +1,56 @@
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+  margin-bottom: 10px;
+  z-index: 99;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.top-left {
+  flex: 3;
+}
+.top-left-icon {
+  margin-left: 10px;
+}
+
+.top-center {
+  flex: 6.5;
+}
+.top-list {
+  display: flex;
+  list-style: none;
+}
+.top-list-item {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.top-right {
+  flex: 2.5;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+.top-right > img {
+  cursor: pointer;
+}
+
+.top-right-search-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbarProfilePic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
